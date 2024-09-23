@@ -1,0 +1,128 @@
+body{
+    width: 1160px;
+    margin: 0;
+    background-color: #efeeee;
+    
+}
+.slider{
+    position: relative;
+    top: 100px;
+}
+.main-index{
+    margin: 30px 180px;
+    /* width: 800px; */
+    height: 360px;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    color: #000;
+    border-radius: 6px;
+    
+}
+.table-sanpham{
+    display: block;
+}
+.table-sanpham table{
+    /* width: 100%; */
+
+}
+.header-product{
+    position: relative;
+    display: flex;
+    /* border-bottom: #ccc solid 0.5px; */
+    padding: 10px;
+    height: 30px;
+    align-items: center;
+    margin: 0 2px;
+}
+.header-product .info{
+    /* flex-grow: 20; */
+    font-size: 14px;
+    font-weight: 600;
+}
+.header-product .btnXemThem{
+    cursor: pointer;
+    padding: 3px;
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    /* flex-grow: 1; */
+
+    /* height: 20px;
+    transition: all 0.35s ease-in-out 0s;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-transform: inherit;
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 14px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    color: rgb(237, 28, 36);
+    overflow: hidden; */
+    
+}
+.item-product{
+    position: relative;
+    /* top: 10px; */
+    font-size: 16px;
+    border: #ccc solid 0.4px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    padding-bottom: 20px;
+    border-radius: 4px;
+    margin: 0px 2px 0 2px;
+    /* padding: 2px; */
+}
+.item-product:hover{
+    border-color: red;
+}
+.item-product a{
+    text-decoration: none;
+}
+.item-product .item-tensp{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    
+}
+.item-product .item-giasp{
+    position: relative;
+    top: -10px;
+    font-size: 14px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.item-product .btn-addCart{
+    height: 36px;
+    transition: all 0.35s ease-in-out 0s;
+    border: 1px solid rgb(237, 28, 36);
+    cursor: pointer;
+    text-transform: inherit;
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: rgba(153, 153, 153, 0.6) 0px 0px 5px 0px;
+    width: 80%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    color: rgb(237, 28, 36);
+    overflow: hidden;
+}
+.item-product .btn-addCart:hover{
+    border-color: #37da39;
+}
+
+.footer{
+    all: unset;
+    margin: 0px;
+    width: 1140px;
+    position: relative;
+    top: 300px;
+    /* background-color: red; */
+}

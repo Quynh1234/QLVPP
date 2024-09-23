@@ -1,0 +1,165 @@
+body{
+    width: 1160px;
+    margin: 0;
+    background-color: #efeeee;
+    
+}
+.clear{
+    clear: both;
+}
+.mainDetail{
+    margin: 30px 180px;
+    width: 1000px;
+    height: auto;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    color: #000;
+    border-radius: 6px;
+    
+}
+.mainDetail .heading{
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.main-detail{
+    display: grid;
+    grid-template-columns: 380px 600px;
+    column-gap: 20px;
+}
+.main-detail .sp-img{
+    width: 310px;
+    height: 310px;
+    margin: 10px;
+    border: #ccc 1px solid;
+}
+.main-detail .sp-info{
+    text-align: left;
+    margin-top: 20px;
+}
+.sp-info .info-name{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600px;
+}
+.sp-info .info-gia{
+    color: red;
+    font-size: 23px;
+    font-weight: 600px;
+}
+.sp-info .btn-addCart, .btn-muahang{
+    margin-top: 30px;
+    font-size: 16px;
+    height: 36px;
+    width: 150px;
+    font-weight: 600px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid red;
+    cursor: pointer;
+    margin-right: 12px;
+    padding: 1px 6px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+
+.btn-addCart:hover{
+    background-color: #676767;
+    color: red;
+}
+.btn-muahang:hover{
+    background-color: #676767 ;
+    color: red;
+}
+
+
+/* form bình luận */
+.form-comment{
+    position: relative;
+    top: 200px;
+    width: 1000px;
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    text-align: left;
+    padding: 30px;
+
+
+    height: auto;
+    display: inline-block;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    color: #000;
+    border-radius: 6px;
+
+}
+.form-comment .txt-pten{
+    width: 60%;
+
+}
+
+.txt-pten input{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: #9c9c9c 1px solid;
+    padding: 3px 5px 3px 5px;
+    margin-bottom: 10px;
+}
+.form-comment .txt-pbinhluan{
+    width: 100%;
+}
+.txt-pbinhluan textarea{
+    width: 100%;
+    /* height: 40px; */
+    font-size: 14px;
+    border-radius: 5px;
+    border: #9c9c9c 1px solid;
+    padding: 3px 5px 3px 5px;
+    margin-bottom: 10px;
+
+}
+.form-comment .btn-psubmit{
+    float: right;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.btn-psubmit button{
+    min-width: 124px;
+    height: 34px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 0 12px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #2F80ED;
+}
+
+.list-cmt{
+    position: relative;
+    
+}
+.list-cmt .btn-like{
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+
+
+.footer{
+    all: unset;
+    margin: 0px;
+    width: 1140px;
+    position: relative;
+    top: 300px;
+    /* background-color: red; */
+}
